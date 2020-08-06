@@ -1,0 +1,80 @@
+body,html{
+
+    height: 120%;
+}
+
+div{
+    padding:10px;
+    background-color:lavender;
+    margin: 30px 0;
+    border: 2px solid black;
+}
+.inline div{
+    padding:10px;
+    background-color:red;
+    margin: 10px 0;
+    border: 2px solid black;
+
+    display: inline;
+
+}
+div div{
+    padding:10px;
+    background-color:pink;
+    margin: 10px 0;
+    border: 2px solid black;
+
+
+
+}
+
+
+.block span{
+    padding:10px;
+    background-color:greenyellow;
+    margin: 10px 0;
+    border: 2px solid black;
+
+    display: block;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
+.static{
+    position: static;
+}
+.relative{
+    position: relative;
+    top:10px;
+    left:25px;
+    right:25px;
+    height: 200px;
+}
+.absolute1{
+    position: absolute;
+    top:70px;
+    left: 50px;
+}
+.absolute2{
+    position: absolute;
+    top:10px;
+  
+    
+}
+h1{
+    margin-top: 150px;
+}
+
+.fixed{
+    position: fixed;
+    bottom:10px;
+    left:25px;
+    
+}
+.inlineblock div{
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+}
