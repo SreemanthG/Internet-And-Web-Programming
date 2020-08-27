@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="flex">
+        <form action="/" method="POST" id="form">
+        <h3> Doctor’s Appointment form </h3>
+
+            <div class="ss">
+                <label for="name">
+                    Name:
+                </label>
+                <input required type="text" id="name">
+                <div id="nameerrors" class="e">
+                    
+                </div>
+            </div>
+           
+            <div class="ss">
+                <label for="age">
+                    Age:
+                </label>
+                <input required type="number" id="age">
+                <div id="ageerrors" class="e">
+                    
+                </div>
+            </div>
+            
+            <div class="ss">
+                <label for="gender">
+                    Gender:
+                </label>
+                <input required type="text" id="gender">
+                <div id="gerrors" class="e">
+                    
+                </div>
+            </div>
+            
+            <div class="ss">
+                <label for="nov">
+                    No. of Visits:
+                </label>
+                <input required type="number" id="nov">
+                <div id="noverrors" class="e">
+                    
+                </div>
+            </div>
+            
+            <div class="ss">
+                <label for="date">
+                    Date:
+                </label>
+                <!--  -->
+                <input required type="date" id="date">
+                <div id="dateerrors" class="e">
+                    
+                </div>
+    
+            </div>
+            
+            <div class="ss">
+                <label for="dep">
+                    Dep:
+                </label>
+                <input required type="text" id="dep">
+               
+                <div id="deperrors" class="e">
+                    
+                </div>
+            </div>
+            <div class="ss">
+                <input  type="submit" id="submit" value="Submit">
+    
+            </div>
+        </form>
+    </div>
+    
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
